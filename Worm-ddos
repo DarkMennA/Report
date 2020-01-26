@@ -1,0 +1,8 @@
+pkg install git
+git clone https://github.com/Taguar258/Raven-Storm/
+cd Raven-Storm
+pkg install redis nmap
+pkg install iputils-ping (in case needed)
+pkg install python2
+python2 -m pip install -r requiments.txt
+python2 rs.pyo
